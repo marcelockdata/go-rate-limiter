@@ -28,7 +28,7 @@ services:
       context: .
       dockerfile: Dockerfile
       tags:
-        - aleroxac/goexpert-ratelimiter:v1
+        - marcelo/goexpert-ratelimiter:v1
     ports:
       - "8080:8080"
     networks:

@@ -21,7 +21,7 @@ test: ## Run unit-tests
 
 .PHONY: build
 build: ## Build the container image
-	@docker build -t aleroxac/goexpert-ratelimiter:dev -f Dockerfile .
+	@docker build -t marcelo/goexpert-ratelimiter:dev -f Dockerfile .
 
 .PHONY: up
 up: ## Put the compose containers up
